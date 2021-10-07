@@ -1,6 +1,8 @@
+import Head from 'next/head';
 import type { NextPage } from 'next';
 import { Flex } from '@chakra-ui/react';
-import Head from 'next/head';
+
+import { Header } from '../components/Header';
 
 const Home: NextPage = () => (
   <>
@@ -8,6 +10,7 @@ const Home: NextPage = () => (
       <title>Home | worldtrip</title>
     </Head>
     <Flex direction="column">
+      <Header />
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias beatae
         ipsum, dolor blanditiis accusantium facilis sit voluptas facere
