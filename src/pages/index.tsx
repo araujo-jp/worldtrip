@@ -13,8 +13,8 @@ const Home: NextPage = () => (
     <Head>
       <title>Home | worldtrip</title>
     </Head>
+    <Header />
     <Flex direction="column">
-      <Header />
       <Banner />
       <TravelTypes />
       <Divider />
