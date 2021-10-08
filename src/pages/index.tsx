@@ -1,10 +1,11 @@
 import Head from 'next/head';
 import type { NextPage } from 'next';
-import { Flex } from '@chakra-ui/react';
+import { Flex, Heading } from '@chakra-ui/react';
 
 import { Header } from '../components/Header';
 import { Banner } from '../components/Banner/index';
 import { TravelTypes } from '../components/TravelTypes';
+import { Divider } from '../components/Divider';
 
 const Home: NextPage = () => (
   <>
@@ -15,6 +16,17 @@ const Home: NextPage = () => (
       <Header />
       <Banner />
       <TravelTypes />
+      <Divider />
+      <Heading
+        fontWeight="500"
+        align="center"
+        fontSize={['lg', '3xl', '4xl']}
+        mb={['5', '14']}
+      >
+        Vamos nessa?
+        <br />
+        Então escolha seu continente
+      </Heading>
     </Flex>
   </>
 );
