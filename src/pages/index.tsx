@@ -6,6 +6,7 @@ import { Header } from '../components/Header';
 import { Banner } from '../components/Banner/index';
 import { TravelTypes } from '../components/TravelTypes';
 import { Divider } from '../components/Divider';
+import { Slider } from '../components/Slider';
 
 const Home: NextPage = () => (
   <>
@@ -27,6 +28,7 @@ const Home: NextPage = () => (
         <br />
         Então escolha seu continente
       </Heading>
+      <Slider />
     </Flex>
   </>
 );
