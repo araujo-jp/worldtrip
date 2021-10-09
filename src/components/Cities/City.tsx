@@ -15,10 +15,10 @@ export function City() {
       >
         <Flex direction="column">
           <Heading fontSize="xl" fontWeight="500">
-            Londres
+            Paris
           </Heading>
           <Text mt="3" fontSize="md" color="gray.500" fontWeight="500">
-            Reino Unido
+            França
           </Text>
         </Flex>
         <Image
